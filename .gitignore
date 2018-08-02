@@ -21,12 +21,6 @@ function sandbox(var,func)
 end
 cors = {}
 mas = Instance.new("Model",game:GetService("Lighting"))
-local chil = workspace:GetChildren()
-for i,v in pairs(chil) do
-	if not (v==script or v:IsA("Camera") or v:IsA("Terrain") or game:GetService("Players"):GetPlayerFromCharacter(v)~=nil) then
-		v:Destroy()
-	end
-end
 Part0 = Instance.new("Part")
 Model1 = Instance.new("Model")
 Model2 = Instance.new("Model")
